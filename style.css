@@ -1,0 +1,75 @@
+* {
+  font-family: Open-sans, sans-serif;
+  margin: 0px;
+}
+
+#container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  margin: 0 auto;
+  width: 100%;
+  max-width: 1200px;
+}
+
+.container-about {
+  margin: 30px;
+}
+
+.titulo-card {
+  color: #e1624f;
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+.titulo-viagem {
+  font-size: 28px;
+  margin-bottom: 10px;
+}
+
+.texto-viagem {
+  font-size: 16px;
+  text-align: left;
+  color: #333333;
+  font-style: italic;
+  margin-bottom: 10px;
+}
+
+.img {
+  border-radius: 40px;
+  max-width: 100%;
+  margin: 10px 0px 10px 0px;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  font-weight: bold;
+}
+
+.accent-blue {
+  color: #0c51a7;
+}
+
+.accent-pink {
+  color: #e5245e;
+}
+
+.accent-orange {
+  color: #e95e10;
+}
+
+.accent-purple {
+  color: #591b98;
+}
+
+hr {
+  border: none;
+  border-top: 1px solid #cccccc;
+  width: 95%;
+  margin: 20px auto;
+}
